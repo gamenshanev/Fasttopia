@@ -11,7 +11,7 @@ module.exports.run = async (bot, message, arguments) => {
     var ballEmbed = new discord.RichEmbed()
         .setColor("#ff9900")
         .addField("**__ANTWOORD__**", replies[result])
-        .setFooter("Antwoord verzonden door: CoolHosting")
+        .setFooter("Antwoord verzonden door: FastTopia")
 
     return message.channel.send(ballEmbed)
 
