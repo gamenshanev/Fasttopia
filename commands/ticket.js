@@ -2,7 +2,7 @@ const discord = require("discord.js");
 
 module.exports.run = async (bot, message, arguments) => {
 
-    const categoryId = "658960577154252811";
+    const categoryId = "661855544000380928";
 	let onderwerp = arguments.join(" ");
 
     var userName = message.author.username;
